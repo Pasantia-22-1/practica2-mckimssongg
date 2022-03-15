@@ -1,7 +1,7 @@
 
 :root{
     --blueDark: #0f2b66;
-    --blue: #0069af;
+    --blue: #003f8c;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -10,6 +10,21 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+}
+.Boton{
+    background-color: var(--blue);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.Boton:hover{
+    background-color: #fff;
+    color: var(--blue)
+}
+.bgimg{
+    background-image: url("https://www.docker.com/sites/default/files/d8/2021-12/Docker_Website_hero_image_1800x900_v1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* header ----------------------------*/
 .header{
@@ -72,11 +87,7 @@
 } */
 
 /*main-------------------------*/
-.bgimg{
-    background-image: url("https://www.docker.com/sites/default/files/d8/2021-12/Docker_Website_hero_image_1800x900_v1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .section{
     display: flex;
     align-items: center;
@@ -97,16 +108,14 @@
 .sectionWelcom__content>h3{
     font-size: 1.4em;
 }
-.sectionWelcom__content>a{
-    background-color: var(--blue);
-    color: #fff;
-    padding: 10px 20px;
-}
 /* section newv */
 .sectionNew{
     display: none;
 }
 /* section numbers */
-.sectionNumbers{
-    
+/* sectionNumbers{
+
+} */
+.sectionNumbers__contet{
+    padding: 10px;
 }
