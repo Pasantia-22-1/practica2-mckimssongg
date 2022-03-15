@@ -1,0 +1,62 @@
+/* https://www.docker.com/sites/default/files/d8/2021-12/Docker_Website_hero_image_1800x900_v1.png bg */
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* header ----------------------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar__contentlogo{
+    width: 150px;
+}
+.navbar__contentlogo>img{
+    width: 100%;
+    object-fit: contain;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(70, 104, 255)
+}
+.Sesions{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+}
+.menu__item>a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+}
+.menu__item>a>img{
+    width: 30px;
+}
+.menu .menu__item a:hover{
+    color: #000;
+    transition: all 0.3s;
+}
+
+/*submenu*/
+
+.nav__menu__submenu{
+    position: absolute;
+    background-color: #000;
+    display: none;
+}
+.menu .menu__item:hover .nav__menu__submenu{
+    display: block;
+}
