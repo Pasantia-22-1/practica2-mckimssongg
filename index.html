@@ -16,51 +16,37 @@
             <nav class="navbar">
                 <div class="navbar__contentlogo"><img src="https://logos-marcas.com/wp-content/uploads/2021/03/Docker-Logo.png" alt="Logoxd"></div>
                 <ul class="menu">
-                    <li class="menu__item"><a class="menu__item__link" href="#">products</a>
-                        <ul class="nav__menu__submenu">
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="#">Lorem</a></li>
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="#">Lorem</a></li>
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="#">Lorem</a></li>
-                        </ul>
+                    <li class="menu__item"><a class="menu__item__link" href="#">Products</a>
+                        <!-- submenu -->
                     </li>
-                    <li class="menu__item"><a class="menu__item__link" href="#">Developers/a>
-                        <ul class="nav__menu__submenu">
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="#"">Lorem</a></li>
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="#">Lorem</a></li>
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="#">Lorem</a></li>
-                        </ul>
-                        <ul class="nav__menu__submenu">
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="rooms.html#picadilly">Lorem</a></li>
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="rooms.html#cambridge">Lorem</a></li>
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="rooms.html#westminster">Lorem</a></li>
-                        </ul>
+                    <li class="menu__item"><a class="menu__item__link" href="#">Developers</a>
+                        <!-- submenu -->
                     </li>
-                    <li class="menu__item"><a class="menu__item__link" href="#">pricing</a>
-                    </li>
-                    <li class="menu__item"><a class="menu__item__link" href="#">blog</a>
-                    </li>
-                    <li class="menu__item"><a class="menu__item__link" href="#">about us</a>
-                        <ul class="nav__menu__submenu">
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="rooms.html#picadilly">Lorem</a></li>
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="rooms.html#cambridge">Lorem</a></li>
-                            <li class="nav__menu__submenu__item nav__menu__item"><a href="rooms.html#westminster">Lorem</a></li>
-                        </ul>
+                    <li class="menu__item"><a class="menu__item__link" href="#">Pricing</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="#">Blog</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="#">About Us</a>
+                        <!-- submenu -->
                     </li>
                     <li class="menu__item"><a class="menu__item__link" href="#">partheres</a></li>
                 </ul>
             </nav>
-            <ul class="Sesions">
-                <li class="Sesions__item"><a class="Sesions__item__link" href="#"><img src="#">SingIn</a></li>
-                <li class="Sesions__item"><a class="Sesions__item__link" href="">get started</a></li>
+            <ul class="Sesions menu">
+                <li class="menu__item Sesions__item"><a class="Sesions__item__link" href="./singIn.html"><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png">Sing In</a></li>
+                <li class="menu__item Sesions__item"><a class="Sesions__item__link" href="#">Get Started</a></li>
             </ul>
         </header>
         <main class="main">
             <article class="main__article">
-                <section class="section">
-                    <h1>Developers Love Docker.<br>Businesses Trust It.</h1>
-                    <h3>Build safer, share wider, run faster: New updates to our product subscriptions.</h3>
+                <section class="section bgimg sectionWelcom">
+                    <div class="sectionWelcom__content">
+                        <h1>Developers Love Docker.<br>Businesses Trust It.</h1>
+                        <h3>Build safer, share wider, run faster:<br>New updates to our product subscriptions.</h3>
+                        <br>
+                        <br>
+                        <a href="#">Learn more</a>
+                    </div>
                 </section>
-                <section>
+                <section class="section sectionNew">
                     <div>
                         <img src="https://www.docker.com/sites/default/files/d8/2022-03/Docker_State_of_App_HomepageWhat%E2%80%99sNew_900x600_v1b.png">
                         <div>
@@ -71,24 +57,24 @@
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div class="Container">
+                <section class="section sectionNumbers">
+                    <div class="sectionNumbers__container">
                         <h2>Accelerate how you build, share, and run modern applications.</h2>
-                        <div class="number">
-                            <p><span>13 million +</span>developers</p>
-                            <p><span>7 million +</span>applications</p>
-                            <p><span>13 billion +</span>monthly image downloads</p>
+                        <div class="sectionNumbers__container__numbers">
+                            <p class="sectionNumbers__container__numbers__text" ><span>13 million +</span>developers</p>
+                            <p class="sectionNumbers__container__numbers__text" ><span>7 million +</span>applications</p>
+                            <p class="sectionNumbers__container__numbers__text" ><span>13 billion +</span>monthly image downloads</p>
                         </div>
                         <div class="link">
                             <a href="#">Get Started</a>
                         </div>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <h2>Docker makes development efficient and predictable</h2>
                     <h3>Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud. Docker’s comprehensive end to end platform includes UIs, CLIs, APIs and security that are engineered to work together across the entire application delivery lifecycle.</h3>
                 </section>
-                <section>
+                <section class="section">
                     <div class="Container">
                         <div>
                             <h2>Build</h2>
@@ -99,7 +85,7 @@
                         <div class="containerImg"><img src="assets/img/Docker-build.png" alt=""></div>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <div class="Container">
                         <div>
                             <h2>Share</h2>
@@ -110,7 +96,7 @@
                         <div class="containerImg"><img src="https://www.docker.com/sites/default/files/d8/styles/large/public/2021-08/Moby-share.png?itok=Kc8zKIm4" alt=""></div>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <div class="Container">
                         <div>
                             <h2>Run</h2>
@@ -121,14 +107,14 @@
                         <div class="containerImg"><img src="https://www.docker.com/sites/default/files/d8/styles/large/public/2021-08/Moby-run.png?itok=oGhAc1XC" alt=""></div>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <div class="Container">
                         <h2>New to containers?</h2>
                         <h3>Today, all major cloud providers and leading open source serverless frameworks use our platform, and many are leveraging Docker for their container-native IaaS offerings.</h3>
                         <a href=""><img src="https://www.docker.com/sites/all/themes/docker/assets/images/icons/cta-arrow.svg">Learn more about containers.</a>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <div class="Container">
                         <div>
                             <h2>A Community like No Other</h2>
@@ -138,7 +124,7 @@
                         <div class="containerImg"><img src="" alt=""></div>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <h2>Use your favorite tools and images</h2>
                 </section>
                 <section>
@@ -158,17 +144,17 @@
                         <div class="containerImg"><img src="https://www.docker.com/sites/default/files/d8/styles/logo_ribbon/public/2021-03/vmware_full.png?itok=XwVC8_oH" alt=""></div>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <div>
                         <div><img src="https://www.docker.com/sites/default/files/d8/2021-09/pricing_fullhand.png"></div>
                         <h2>Choose a subscription that is right for you</h2>
                         <p>Benefit from more collaboration, increased security, without limits... all enabled with a Docker subscription. Check out our <a href="">pricing</a>.</p>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <h2>See who uses Docker</h2>
                 </section>
-                <section>
+                <section class="section">
                     <div>
                         <div class="containerImg"><img src="https://www.docker.com/sites/default/files/d8/styles/logo_ribbon/public/2021-03/adobe_full.png?itok=mXWpyUfx" alt=""></div>
                         <div class="containerImg"><img src="https://www.docker.com/sites/default/files/d8/styles/logo_ribbon/public/2021-03/arrow_full.png?itok=YkAGP9TT" alt=""></div>
@@ -194,7 +180,7 @@
                         <div class="containerImg"><img src="https://www.docker.com/sites/default/files/d8/styles/logo_ribbon/public/2021-03/Yale_full.png?itok=o5xyPJm3" alt=""></div>
                     </div>
                 </section>
-                <section class="">
+                <section class="section">
                     <h2>Go from code to cloud securely with partners that you trust</h2>
                     <h3>Trust that your development pipeline workflow will work in any environment – locally and in the cloud.</h3>
                     <div>
@@ -223,7 +209,7 @@
                         <a href="">Learn more</a>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <h2>Your path to accelerated application development starts here</h2>
                     <ol>
                         <li>Learn more about <a href="">containers</a>.</li>
@@ -232,7 +218,7 @@
                     </ol>
                     <a href="">Get started for free</a> 
                 </section>
-                <section>
+                <section class="section">
                     <div>
                         <h4>Subscribe to our newsletter to get the latest updates and news from Docker delivered to your inbox monthly.</h4>
                         <form action="">
@@ -252,7 +238,7 @@
                         <a href="">Subscribe</a>
                     </div>
                 </section>
-                <section>
+                <section class="section">
                     <h2>Accelerate your application development today.</h2>
                 </section>
             </article>

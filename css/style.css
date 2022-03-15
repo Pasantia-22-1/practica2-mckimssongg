@@ -1,6 +1,11 @@
-/* https://www.docker.com/sites/default/files/d8/2021-12/Docker_Website_hero_image_1800x900_v1.png bg */
+
+:root{
+    --blueDark: #0f2b66;
+    --blue: #0069af;
+}
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
@@ -8,6 +13,7 @@
 }
 /* header ----------------------------*/
 .header{
+    background-color: var(--blueDark);
     display: flex;
     justify-content: space-between;
 }
@@ -19,44 +25,88 @@
     object-fit: contain;
 }
 .navbar{
+    margin: 0 26px;
     display: flex;
     justify-content: space-between;
 }
 .menu{
+    margin: 0 20px;
     display: flex;
     justify-content: flex-start;
-    background-color: rgb(70, 104, 255)
 }
 .Sesions{
     display: flex;
     justify-content: flex-end;
+    
 }
-.menu{
+.menu__item{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
 }
 .menu__item>a{
     position: relative;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
     padding: 15px;
     color: #fff;
 }
-.menu__item>a>img{
+
+.menu__item>.Sesions__item__link>img{
     width: 30px;
 }
-.menu .menu__item a:hover{
-    color: #000;
+
+.menu .menu__item .menu__item__link:hover{
+    text-decoration: underline;
     transition: all 0.3s;
 }
+/* submenu */
 
-/*submenu*/
-
-.nav__menu__submenu{
+/* .item__menu__submenu{
     position: absolute;
     background-color: #000;
     display: none;
 }
-.menu .menu__item:hover .nav__menu__submenu{
+.menu .menu__item:hover .item__menu__submenu{
     display: block;
+} */
+
+/*main-------------------------*/
+.bgimg{
+    background-image: url("https://www.docker.com/sites/default/files/d8/2021-12/Docker_Website_hero_image_1800x900_v1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+/* section Welcomn */
+.sectionWelcom{
+    color: #fff;
+    height: 70vh;
+}
+.sectionWelcom__content{
+    width: 70%;
+    height: 70%;
+}
+.sectionWelcom__content>h1{
+    font-size: 4em;
+}
+.sectionWelcom__content>h3{
+    font-size: 1.4em;
+}
+.sectionWelcom__content>a{
+    background-color: var(--blue);
+    color: #fff;
+    padding: 10px 20px;
+}
+/* section newv */
+.sectionNew{
+    display: none;
+}
+/* section numbers */
+.sectionNumbers{
+    
 }
